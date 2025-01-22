@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class sayHelloController {
 
-    @RequestMapping("say-hello")
+    @RequestMapping("say-hello-jsp")
     public String sayHelloJsp(){
         return "sayHello";
     }
