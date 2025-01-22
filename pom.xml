@@ -48,7 +48,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-websocket</artifactId>
+			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>default</scope>
 		</dependency>
 	</dependencies>
