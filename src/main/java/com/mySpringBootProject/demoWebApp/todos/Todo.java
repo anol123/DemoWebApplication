@@ -2,14 +2,14 @@ package com.mySpringBootProject.demoWebApp.todos;
 
 import java.time.LocalDate;
 
-public class Todos {
+public class Todo {
     private int id;
     private String username;
     private String Description;
     private LocalDate targetDate;
     private boolean done;
 
-    public Todos(int id, String username, String description, LocalDate targetDate, boolean done) {
+    public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {
         super();
         this.id = id;
         this.username = username;
