@@ -15,8 +15,8 @@ public class TodoService {
         todolist.add(new Todo(++todoCount, "xyzv","DevOps", LocalDate.now().plusYears(3), false));
     }
 
-    public static String listTodo(){
-        return todolist.toString();
+    public static List<Todo> listTodo(){
+        return todolist;
     }
 
 }
